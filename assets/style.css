@@ -1,0 +1,26 @@
+.title {
+    color: #231212;
+    margin: 40px 0px 0px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row {
+    margin: 0px 60px 0px 60px;
+}
+
+.detalles {
+    display: none; /* Oculta los detalles por defecto */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Cambiado a fixed para que el recuadro quede fijo en la pantalla */
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+    width: 80%; /* Ajusta el ancho del recuadro según sea necesario */
+    max-width: 1200px; /* Limita el ancho máximo del recuadro */
+}
+
+.img-fluid {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
